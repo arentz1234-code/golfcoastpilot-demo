@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <!-- Airplane icon -->
+  <g transform="translate(5, 20)">
+    <path d="M45 20L35 25L10 22L8 24L30 32L25 38L15 36L13 38L22 42L26 52L28 50L26 40L32 35L55 45L57 43L40 25L45 20Z" fill="url(#skyGrad)"/>
+  </g>
+  <!-- Text -->
+  <text x="70" y="38" font-family="Bebas Neue, Arial Black, sans-serif" font-size="28" font-weight="700" fill="#0c1220" letter-spacing="2">GOLF COAST</text>
+  <text x="70" y="62" font-family="Bebas Neue, Arial Black, sans-serif" font-size="22" font-weight="400" fill="url(#skyGrad)" letter-spacing="3">PILOT</text>
+  <!-- Accent line -->
+  <rect x="70" y="66" width="60" height="2" fill="url(#skyGrad)" rx="1"/>
+</svg>
